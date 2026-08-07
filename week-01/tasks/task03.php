@@ -15,3 +15,4 @@ echo normaliser("John Doe", 15) . "\n";
 echo implode(", ", array_filter($array, function ($array) {
     return $array > 10 ;
 }));
+?>

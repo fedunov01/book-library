@@ -27,3 +27,4 @@ foreach ($array1 as $value) {
 foreach ($array2 as $value) {
     echo $value . "\n"; // val of array2
 }
+?>
