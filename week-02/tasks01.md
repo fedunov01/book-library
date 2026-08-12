@@ -26,3 +26,5 @@
 - 400 -- bad request, server dont understand req syntaxis
 - 404 -- not found
 - 500 -- server side error, server dont know what to responde
+
+![alt text](image.png)
