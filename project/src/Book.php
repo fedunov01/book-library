@@ -1,12 +1,12 @@
 <?php
 class Book {
-    public $id;
-    public $title;
-    public $author;
-    public $year;
-    public $genre;
+    public int $id;
+    public string $title;
+    public string $author;
+    public int $year;
+    public string $genre;
 
-    public function __construct($id, $title, $author, $year, $genre) {
+    public function __construct(int $id, string $title, string $author, int $year, string $genre) {
         $this->id = $id;
         $this->title = $title;
         $this->author = $author;
