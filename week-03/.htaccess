@@ -1,0 +1,5 @@
+RewriteEngine On
+
+# Send every request to index.php, except index.php itself
+RewriteCond %{REQUEST_URI} !^/index\.php$
+RewriteRule ^ index.php [L,QSA]
